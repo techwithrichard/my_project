@@ -36,18 +36,18 @@ for (i in 1:3) {
   }
 }
 
-# cat("end of nested loop", "\n")
+cat("end of nested loop", "\n")
 
 
-# # while loop 
-# cat("While Loop Example", "\n")
-# count <- 1
-# while (count <= 5) {
-#   cat("Count is:", count, "\n")
-#   count <- count + 1
-# }
+# while loop 
+cat("While Loop Example", "\n")
+count <- 1 #1,2,3,4,5
+while (count <= 5) {
+  cat("Count is:", count, "\n")
+  count <- count + 1 #2
+}
 
-# cat("end of while loop", "\n")
+cat("end of while loop", "\n")
 
 # # repeat loop - repeat code until a break condition is met 
 # cat("Repeat Loop Example", "\n")
