@@ -49,19 +49,19 @@ while (count <= 5) {
 
 cat("end of while loop", "\n")
 
-# # repeat loop - repeat code until a break condition is met 
-# cat("Repeat Loop Example", "\n")
-# x <- 1  
-# repeat {
-#   cat(" - Repeating this iteration:", x, "\n")
-#   x <- x + 1
-#   if (x > 3) {
-#     break
-#   }
-# }
+# repeat loop - repeat code until a break condition is met 
+cat("Repeat Loop Example", "\n")
+x <- 1  
+repeat {
+  cat(" - Repeating this iteration:", x, "\n")
+  x <- x + 1
+  if (x > 3) {
+    break
+  }
+}
 
 
-# cat("end of repeat loop", "\n")
+cat("end of repeat loop", "\n")
 
 
 # # R is vectorized for operations - always better than loops
