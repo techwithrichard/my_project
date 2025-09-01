@@ -8,33 +8,33 @@ for (i in 1:5) {
 
 cat("end of for loop", "\n")
 
-# cat("using inbuilt dataset (mtcars)", "\n   ")
-# data("mtcars")
-# cat("Step 2: For Loop with mtcars dataset", "\n")
-# for (car_name in rownames(mtcars)[1:5]) {
-#   cat("Car model:", car_name)
-# }
+cat("using inbuilt dataset (mtcars)", "\n   ")
+data("mtcars")
+cat("Step 2: For Loop with mtcars dataset", "\n")
+for (car_name in rownames(mtcars)[1:10]) {
+  cat("Car model:", car_name, "\n")
+}
 
-# cat("end of for loop with mtcars", "\n")
-# cars <- rownames(mtcars)
-# cat("loop with index    ", "\n")
-# for (i in 1:length(cars)){
-#     if(i <= 5){
-#         cat(paste(i, ":", cars[i]), "\n")
+cat("end of for loop with mtcars", "\n")
+cars <- rownames(mtcars)
+cat("loop with index    ", "\n")
+for (i in 1:length(cars)){
+    if(i <= 5){
+        cat(paste(i, ":", cars[i]), "\n")
 
-#     }
+    }
     
-# }
+}
 
-# cat("end of loop with index", "\n")
+cat("end of loop with index", "\n")
 
-# # nexted for loop 
-# cat("Nested Loop Example", "\n")
-# for (i in 1:3) {
-#   for (j in 1:2) {
-#     cat("Row:", i, "- ICoclumn:", j, "Product:", i * j)
-#   }
-# }
+# nexted for loop 
+cat("Nested Loop Example", "\n") 
+for (i in 1:3) {
+  for (j in 1:2) {
+    cat("Row:", i, "- ICoclumn:", j, "Product:", i * j, "\n")
+  }
+}
 
 # cat("end of nested loop", "\n")
 
