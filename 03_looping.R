@@ -64,18 +64,18 @@ repeat {
 cat("end of repeat loop", "\n")
 
 
-# # R is vectorized for operations - always better than loops
-# # in R all abov ecan be reqritten as:
+# R is vectorized for operations - always better than loops
+# in R all abov ecan be reqritten as:
 
-# # Using mtcars dataset
-# # Calculate mean of each column
-# means_per_col <- sapply(mtcars, mean)
-# print("Column means:")
-# print(means_per_col)
+# Using mtcars dataset
+# Calculate mean of each column
+means_per_col <- sapply(mtcars, mean)
+print("Column means:")
+print(means_per_col)
 
-# # Calculate row sums for first 5 cars
-# row_sums <- apply(mtcars[1:5, ], 1, sum)
-# print("First 5 cars - total values:")
-# print(row_sums)
-# cat("end of vectorized operations", "\n")
+# Calculate row sums for first 5 cars
+row_sums <- apply(mtcars[1:5, ], 1, sum)
+print("First 5 cars - total values:")
+print(row_sums)
+cat("end of vectorized operations", "\n")
 
