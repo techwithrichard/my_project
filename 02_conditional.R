@@ -19,6 +19,13 @@ if (name == "Mazda") {
   cat("Corect name picked:  Mazda\n")
 }
 
-
+# if else
+cat("Step 4 - if else statement\n")
+car_name <- "Volvo"
+if (car_name == "Mazda") { #true
+  cat("Corect name picked:  Mazda\n")
+} else {
+  cat("Incorrect name picked\n", car_name) #false
+}
 
 
