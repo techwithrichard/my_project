@@ -77,3 +77,5 @@ cat("end of if-else if-else", "\n")
 # cat("\n3. Vectorized ifelse() function:\n")
 # # This will cause an error - variable name typo
 # iris$Size_Category <- ifelse(iris$Sepal.Lenth > 5.5, "Large", "Small") # ERROR: 'Sepal.Lenth'
+
+cat("The end of my presentation")
